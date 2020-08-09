@@ -1,7 +1,5 @@
 # IPsec VPN Server Auto Setup Scripts
 
-[![Build Status](https://img.shields.io/github/workflow/status/hwdsl2/setup-ipsec-vpn/vpn%20test.svg?cacheSeconds=600)](https://github.com/hwdsl2/setup-ipsec-vpn/actions) [![GitHub Stars](https://img.shields.io/github/stars/hwdsl2/setup-ipsec-vpn.svg?cacheSeconds=3600)](https://github.com/hwdsl2/setup-ipsec-vpn/stargazers) [![Docker Stars](https://img.shields.io/docker/stars/hwdsl2/ipsec-vpn-server.svg?cacheSeconds=3600)](https://github.com/hwdsl2/docker-ipsec-vpn-server) [![Docker Pulls](https://img.shields.io/docker/pulls/hwdsl2/ipsec-vpn-server.svg?cacheSeconds=3600)](https://github.com/hwdsl2/docker-ipsec-vpn-server)
-
 Buat sendiri IPsec VPN server dalam beberapa menit, dengan IPsec/L2TP dan Cisco IPsec di Ubuntu, Debian dan CentOS. Semua yang Kamu butuhkan hanya mengisi VPN credentials, dan biarkan script ini bekerja.
 
 IPsec VPN men enkripsi jaringan, sehingga tidak ada seorang pun antara Kamu dan server VPN yang dapat mengintip data Kamu saat dikirimkan melalui Internet. Ini sangat berguna saat menggunakan jaringan tidak aman, contoh. di cafe, hotel, bandara.
