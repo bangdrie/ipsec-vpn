@@ -21,7 +21,7 @@
 # - SEMUA value HARUS ditempatkan pada 'petik 1'
 # - JANGAN menggunakan special characters dalam value: \ " '
 
-YOUR_IPSEC_PSK=''
+YOUR_IPSEC_PSK='hzrossh'
 YOUR_USERNAME=''
 YOUR_PASSWORD=''
 
