@@ -21,9 +21,9 @@
 # - SEMUA value HARUS ditempatkan pada 'petik 1'
 # - JANGAN menggunakan special characters dalam value: \ " '
 
-YOUR_IPSEC_PSK='hzrossh'
-YOUR_USERNAME=''
-YOUR_PASSWORD=''
+YOUR_IPSEC_PSK='w8CconVTA672ricAVW9y'
+YOUR_USERNAME='acs'
+YOUR_PASSWORD='acs2024'
 
 # Catatan Penting:   https://bit.ly/vpnnotes
 # Setup VPN clients: https://bit.ly/clients-vpn
@@ -215,11 +215,11 @@ fi
 
 bigecho "Creating VPN configuration..."
 
-L2TP_NET=${VPN_L2TP_NET:-'192.168.42.0/24'}
-L2TP_LOCAL=${VPN_L2TP_LOCAL:-'192.168.42.1'}
-L2TP_POOL=${VPN_L2TP_POOL:-'192.168.42.10-192.168.42.250'}
-XAUTH_NET=${VPN_XAUTH_NET:-'192.168.43.0/24'}
-XAUTH_POOL=${VPN_XAUTH_POOL:-'192.168.43.10-192.168.43.250'}
+L2TP_NET=${VPN_L2TP_NET:-'172.31.146.0/24'}
+L2TP_LOCAL=${VPN_L2TP_LOCAL:-'1172.31.146.254'}
+L2TP_POOL=${VPN_L2TP_POOL:-'172.31.146.10-172.31.146.20'}
+XAUTH_NET=${VPN_XAUTH_NET:-'172.31.147.0/24'}
+XAUTH_POOL=${VPN_XAUTH_POOL:-'172.31.147.10-172.31.147.20'}
 DNS_SRV1=${VPN_DNS_SRV1:-'1.1.1.1'}
 DNS_SRV2=${VPN_DNS_SRV2:-'1.0.0.1'}
 DNS_SRVS="\"$DNS_SRV1 $DNS_SRV2\""
